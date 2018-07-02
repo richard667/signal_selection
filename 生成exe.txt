@@ -1,0 +1,7 @@
+pyinstaller -F -w -i xxx.ico yyy.py --hidden-import=pandas._libs.tslibs.timedeltas
+1
+-F 指只生成一个exe文件，不生成其他dll文件
+-w 不弹出命令行窗口
+-i 设定程序图标 ，其后面的ico文件就是程序图标
+yyy.py 就是要打包的程序
+–hidden-import=pandas._libs.tslibs.timedeltas 隐藏相关模块的引用

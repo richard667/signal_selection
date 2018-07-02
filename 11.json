@@ -1,0 +1,1 @@
+{"selected_signals": ["VeTFTI_b_StartUpTempAvail\\ETKC:1"], "checkbox_1": true, "condition_signal": "VeTFTI_T_StartUpCoolant", "condition": ">", "lower_range": "0", "upper_range": "0", "checkbox_2": true, "condition_signal_2": "VeTFTI_b_StartUpTempAvail", "condition_2": ">", "lower_range_2": "0", "upper_range_2": "0"}
